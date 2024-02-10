@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin:0;
+}
+.header-fix {
+    height: 85px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.header-container {
+    width: 1024px;
+    margin: auto;
+}
+.header-container h1 a  {
+color:inherit;
+text-decoration: none;
+}
+.container {
+    width: 1024px;
+    margin: 84px auto 10px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+ aside{
+    float: right;
+    width: 25%;
+    margin-left: 1%;
+    margin-right:0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    background-color: white;
+}
+
+aside h2{
+  margin-bottom:0px;  
+}
+ul {
+    margin-top:10px;
+}
+section{  
+    border-bottom: 1px solid #bbbbbb;
+    background-color: #eeeeee;
+    
+}
+article {
+    text-align:justify;
+    margin-bottom:50px;
+}
+article h2{
+    font-weight: 20px;
+}
+.Remember{
+    margin-left: 160px;
+}.login{
+
+    margin-left: 282px;
+}
+
+form .form-element div{
+    display: table-row;
+}
+
+form .form-element{
+    display:table;
+}
+form.form-element span, label,input, select, textarea {
+Display: table cell;
+margin-bottom: 10px;
+}
+form .form-element label{
+    padding-right: 10px;
+}
+form .form-element .align-right{
+    text-align: right;
+}
+form .form-element select{
+    width: 100%;
+}
+textarea {
+font-family: 'Roboto';
+font-size: 0.95em;
+padding: 4px;
+Resize: none;
+Width: calc(100%-5px);
+border-radius: 5px;
+border: 1px solid rgba(153, 153, 153, 0.91);
+height: 50px;
+}
+
+.form-element.vertical-top{
+ vertical-align: top;
+}
+.result{
+color: #155724;
+background-color: #d4edda;
+border-color: #c3e6cb;
+padding: .75rem 1.25rem;
+margin-bottom: 1rem;
+border-radius: .25rem;
+word-break: break-all;
+}
+.result ul{
+    margin-bottom: opx;
+}
+.asterisk{
+    color:darkred;
+}
+.mandatory {
+    color:darkred;
+}
+
+form.Form-element .align-right{
+    text-align: right;
+}
+#register{
+    margin-left: 65px;
+    font-weight: bold;
+}
+.result{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb ;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    word-break: break-all;
+}
+.fa-asterisk{
+    color: red; 
+}
+form.Form-element{
+    display: table;
+    
+}
+form.Form-element div{
+    display: table-row;
+}
+form.Form-element label, form.Form-element input, form.Form-element select, form.Form-element textarea{
+    display: table-cell;
+    margin-bottom: 10px;
+}
+form.Form-element label{
+    padding-right: 10px;
+}
+
+
